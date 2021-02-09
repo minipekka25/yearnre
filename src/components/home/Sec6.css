@@ -1,0 +1,28 @@
+.Sec6-Title{
+        font-family: ps2;
+    font-size: 32px;
+    margin: 20px;
+}
+
+.Sec6-flex{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid var(--black);
+    margin: 20px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.Sec6-flex-inner{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Sec6-head{
+    font-family: ms2;
+}
+
+.Sec6-data{
+    font-family: ps1;
+}

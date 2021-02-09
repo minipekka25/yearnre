@@ -1,0 +1,59 @@
+.Sec2-container{
+    display: flex;
+    border: 3px solid black;
+    margin: 30px 20px 20px 20px;
+    justify-content: space-between;
+}
+
+.Sec2-left{
+    margin: 20px 0px 15px 20px;
+}
+
+.Sec2-head{
+    font-family: ps1;
+    font-size: 18px;
+    margin-bottom: 3px;
+}
+
+.Sec2-data{
+    font-family: ms2;
+    font-size: 18px;
+}
+
+.ethb-bg{
+    background-color: var(--green);
+    position: relative;
+    height: 100%;
+}
+
+.etherb-icon1{
+    height:80px;
+    position: absolute;
+    top: 50px;
+    left: 25px;
+}
+
+.etherb-icon2{
+    height:100px;
+    position: absolute;
+    top: 160px;
+    left: -30px;
+}
+
+
+.etherb-icon3{
+    height: 130px;
+    position: absolute;
+    bottom: 15px;
+    right: 5px;
+}
+.Sec2-right{
+    position: relative;
+    background-color: var(--green);
+    width: 100px;
+}
+
+.jdfn{
+    position: absolute;
+}
+

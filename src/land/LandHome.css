@@ -1,0 +1,19 @@
+.land-bg-lines-flex{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    height: 100%;
+    width: 94%;
+    padding: 0px 3%;
+    background-color: black;
+    z-index: -20;
+}
+
+.land-bg-lines{
+    border-left: 0.1px solid rgb(41, 41, 41);
+}
+
+.land-main{
+    height: 100%;
+    width: 100%;
+}

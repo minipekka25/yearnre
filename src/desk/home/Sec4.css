@@ -1,0 +1,114 @@
+.lg-home-sec4{
+    margin-top: 15px;
+    overflow-x: auto;
+}
+
+
+.lg-home-sec4::-webkit-scrollbar {
+    background: var(--green);
+    height: 5px;
+}
+
+.lg-home-sec4::-webkit-scrollbar-thumb {
+background: var(--black);
+}
+
+
+.lg-home-sec4-title{
+    font-family: ps2;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.lg-home-sec4-flex{
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+}
+
+.lg-home-sec4-left{
+    display: flex;
+    width: 650px;
+    border: 3px solid var(--black);
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lg-home-sec4-left-data{
+    font-family: ms2;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.lg-home-sec4-left-head{
+    font-family: ps1;
+    font-size: 14px;
+}
+
+.lg-home-sec4-left-item{
+    margin: 0px 10px 10px 10px;
+}
+
+.lg-home-sec4-left-icon{
+vertical-align: middle;
+margin-left: 5px;
+}
+.lg-home-sec4-right{
+    display: flex;
+    background-color: var(--black);
+    width: 500px;
+    color: white;
+    height: fit-content;
+    padding: 10px 10px 2.5px 0px;
+    position: relative;
+}
+
+
+.lg-home-sec4-right-item{
+     margin: 5px 10px 10px 10px;
+}
+
+.lg-home-sec4-right-data{
+      font-family: ms2;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+.lg-home-sec4-right-head{
+    font-family: ps1;
+    font-size: 14px;
+    margin-top: 2px;
+}
+.lg-home-sec4-right-icon{
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.lg-home-sec4-right-item-button{
+    background-color: white;
+    height: 20px;
+    color: var(--black);
+    width: fit-content;
+    padding: 5px 10px;
+    font-family: ms2;
+    font-size: 14px;
+    letter-spacing: 1px;
+     margin: 0px 10px 10px 10px;
+     cursor: pointer;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+
+     
+}
+
+.lg-home-sec4-right a{
+     text-decoration: none;
+}
+
+.lg-home-sec4-right-art{
+    position: absolute;
+    top: -5px;
+    right: 0;
+}

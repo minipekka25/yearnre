@@ -1,0 +1,30 @@
+.footer-placeholder{
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    height: 100%;
+    width: 90%;
+    justify-content: center;
+}
+
+.footer-icon{
+    height: 30px;
+    width: 30px;
+   margin: 5px 10px 5px 10px;
+}
+
+.footer-icon-placeholder{
+    background-color: white;
+    height: 80%;
+    min-width: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icon-name{
+    margin-right: 10px;
+    font-family: ms1;
+}

@@ -1,0 +1,38 @@
+.Sec9-container{
+    background-color: var(--black);
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+}
+
+.Sec9-item{
+    margin-bottom: 20px;
+}
+
+.Sec9-data{
+    font-family: ms2;
+    font-size: 12px;
+}
+
+.Sec9-head{
+    font-family: ps1;
+    font-size: 14px;
+}
+
+.Sec9-btn{
+    background-color: var(--green);
+    font-family: ms2;
+    width: 65%;
+    font-size: 12px;
+    color: var(--black);
+    text-align: center;
+    padding: 10px;
+}
+
+.Sec9-sideart{
+    position: absolute;
+    top: -6px;
+    right: -5px;
+    height: 190px;
+}

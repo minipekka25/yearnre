@@ -1,0 +1,124 @@
+.lg-slots-sec2-title{
+    display: flex;
+    font-family: ps2;
+    font-size: 28px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+   
+}
+
+.lg-slots-sec2-title-left-button{
+    background-color: var(--green);
+    padding: 0px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+    font-family: ps2;
+}
+
+.lg-slots-sec2-title-right-button{
+    background-color: var(--green);
+    padding: 0px 10px;
+    cursor: pointer;
+    border: none;
+    font-family: ps2;
+}
+
+.lg-slots-sec2-flex{
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    min-width: 100%;
+    margin-bottom: 8px;
+}
+
+.lg-slots-sec2-left{
+    display: flex;
+    width: 350px;
+
+    
+}
+
+.lg-slots-sec2-left-data{
+    font-family: ms2;
+    font-size: 14px;
+}
+
+.lg-slots-sec2-left-head{
+    font-family: ps1;
+    font-size: 14px;
+}
+
+.lg-slots-sec2-left-item{
+    margin: 10px;
+}
+
+.lg-slots-sec2-left-set2{
+    background-color: var(--black);
+    color: white;
+    width: 40%;
+    position: relative;
+    border: 3px solid var(--black);
+}
+
+.lg-slots-sec2-left-set1{
+    background-color: white;
+    color: var(--black);
+border: 3px solid var(--black);
+width: 60%;
+}
+
+.lg-slots-sec2-left-input{
+      font-family: ms2;
+    font-size: 14px;
+    background-color: white;
+    border: 0;
+    width:20%;
+}
+
+.lg-slots-sec2-left-button{
+    font-family: ms1;
+    background-color: var(--green);
+    border: 0;
+    padding: 0px 5px;
+}
+
+.lg-slots-sec2-left-set2-sideart{
+height: 170px;
+    margin-left: -12px;
+    transform: scale(1.2);
+    margin-right: 10px;
+}
+
+.lg-slots-sec2-left-ite-w{
+    display: flex;
+}
+
+.lg-slots-sec2-right{
+
+    margin-left: 20px;
+    display: flex;
+    min-width: calc(100% - 350px);
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black);
+    width: fit-content;
+
+}
+
+.lg-slots-sec2-overflow{
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-bottom: 10px;
+}
+
+
+.lg-slots-sec2-overflow::-webkit-scrollbar {
+    background: var(--green);
+    height: 5px;
+}
+
+.lg-slots-sec2-overflow::-webkit-scrollbar-thumb {
+background: var(--black);
+}

@@ -1,0 +1,111 @@
+.land-head-logo{
+    height: 25px;
+    margin-left: 5px;
+}
+
+.land-head-main{
+    background-color: black;
+    padding: 20px 3%;
+    position: relative;
+    z-index: 3;
+}
+
+.land-head-main-flex{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    font-family: ms1;
+    font-size: 14px;
+    align-items: center;
+}
+
+.land-head-menu-flex{
+    display: flex;
+    align-items: center;
+}
+
+.land-head-menu-items-button{
+    background-color: var(--green);
+    color: var(--black);
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.land-head-menu-items-button:hover{
+    background-color: white;
+}
+
+
+
+.land-head-menu-items:hover{
+    text-decoration: underline wavy var(--green);
+    cursor: pointer;
+  
+}
+
+.land-head-lines-flex {
+    display: flex;
+    height: 100%;
+    width: 94%;
+    position: absolute;
+    justify-content: space-between;
+    top: 0;
+    z-index: -1;
+}
+
+.land-head-lines{
+    border-left: 0.1px solid rgb(36, 36, 36);
+}
+
+
+@media only screen and (max-width: 768px) {
+
+
+
+.land-head-menu-items{
+    display: none;
+}
+
+.land-head-main-flex{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.land-head-menu-flex{
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    align-items: center;
+}
+
+.land-head-menu-items-button{
+    background-color: var(--green);
+    color: var(--black);
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.land-head-logo{
+    height: 20px;
+    margin-left: 5px;
+}
+
+.land-head-menu-items-button{
+    background-color: var(--green);
+    color: var(--black);
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 8px;
+    font-family: ms1;
+}
+
+
+
+}

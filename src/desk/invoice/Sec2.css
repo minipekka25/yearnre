@@ -1,0 +1,48 @@
+.lg-invoice-sec2-main{
+    border: 3px solid var(--black);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.lg-invoice-sec2-item-flex{
+    display: flex;
+    background-color: var(--black);
+    color: white;
+    position: relative;
+    margin: 20px;
+}
+
+.lg-invoice-sec2-data{
+    font-family: ms2;
+    letter-spacing: 0.5px;
+}
+
+.lg-invoice-sec2-head{
+    font-family: ps2;
+}
+
+.lg-invoice-sec2-item{
+    margin: 10px;
+}
+
+.lg-invoice-sec2-item-box{
+    background-color: var(--green);
+    width: 20px;
+    margin: 10px;
+}
+
+.lg-invoice-sec2-item-image-item{
+    position: absolute;
+    height: 100%;
+    top: -4px;
+    right: -5px;
+}
+
+.lg-invoice-sec2-item-image{
+    height: 106%;
+}
+
+.lg-invoice-sec2-item-right{
+    margin-left: 30px;
+    
+}

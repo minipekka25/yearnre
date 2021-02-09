@@ -1,0 +1,27 @@
+.lg-home-sec1{
+    display: flex;
+  
+    justify-content: space-between;
+    background-color: var(--black);
+    padding: 10px;
+    color: white;
+}
+
+
+.lg-home-sec1-Title{
+    font-family: ps2;
+    font-size: 28px;
+}
+
+
+.lg-home-sec1-item{
+    margin: 0px 0px;
+}
+
+.lg-home-sec1-data{
+    font-family: ms2;
+}
+
+.lg-home-sec1-head{
+    font-family: ps1;
+}

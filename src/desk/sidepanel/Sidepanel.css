@@ -1,0 +1,115 @@
+.lg-sidepanel-main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.lg-sidepanel-sec1{
+    background-color: var(--black);
+    padding: 10px;
+    margin: 0px 15px ;
+}
+
+.lg-sidepanel-sec1-emoji-bg{
+    position: relative;
+    height: 90px;
+    width: 90px;
+    border-radius: 45px;
+    background-color: var(--green);
+}
+
+.lg-sidepanel-sec1-emoji{
+    position: absolute;
+    height: 85px;
+    bottom: -8px;
+    left: 15px;
+}
+
+.lg-sidepanel-sec1-emoji-flex{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.lg-sidepanel-sec1-head{
+    font-family: ps1;
+    text-align: center;
+    margin: 15px 0px 5px 0px;
+    color: white;
+}
+
+.lg-sidepanel-sec1-data{
+    font-family: ms2;
+    text-align: center;
+    color: white;
+}
+
+.lg-sidepanel-sec2{
+    margin: 15px 15px 0px 15px;
+    background-color: white;
+    padding: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    height: 65%;
+    justify-content: space-between;
+    overflow-y: auto;
+}
+
+.lg-sidepanel-sec2::-webkit-scrollbar {
+   display: none;
+   width: 0px;
+}
+
+
+.lg-sidepanel-sec2-head{
+   
+    font-family: ps1;
+    margin: 0px 0px 5px 0px;
+ 
+}
+
+.lg-sidepanel-sec2-data{
+     
+    font-family: ms2;
+
+}
+
+.lg-sidepanel-sec2-item{
+    background-color: white;
+    color: var(--black);
+    padding: 10px 15px;
+ 
+}
+
+.lg-sidepanel-sec2-item:hover{
+    background-color: var(--black);
+    color: white;
+    cursor: pointer;
+   
+}
+
+
+.lg-sidepanel-sec3-eth1{
+    position: absolute;
+    height: 30px;
+    right: 80px;
+    bottom: 15px;
+  
+}
+
+.lg-sidepanel-sec3-eth2{
+    position: absolute;
+    height: 60px;
+    right: 40px;
+    bottom: 40px;
+      
+}
+
+.lg-sidepanel-sec3-eth3{
+    position: absolute;
+    height: 45px;
+    right: 15px;
+    bottom: 5px;
+
+}
+

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="14.142135623730951" width="14.14213562373061">
+  <defs>
+    <rect id="rect-1" opacity="1" x="2.0710678118657597" y="2.0710678118654187" width="9.999999999999943" height="9.99999999999996"/>
+    <mask id="mask-2" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse">
+      <rect opacity="1" x="0" y="0" width="14.14213562373061" height="14.142135623730951" fill="Black"/>
+      <use xlink:href="#rect-1" fill="White"/>
+    </mask>
+  </defs>
+  <g transform="translate(7.07106781186576, 7.071067811865419) rotate(315.0001126327126) translate(-7.07106781186576, -7.071067811865419)" opacity="1">
+    <g/>
+    <g mask="url(#mask-2)">
+      <g opacity="1">
+        <g opacity="1">
+          <g opacity="1">
+            <g opacity="1">
+              <path fill="rgb(0,0,0)" fill-opacity="1" opacity="1" fill-rule="evenodd" d="M7.071082460317536 2.0710678118654187L6.186696831034699 2.955453441148256L9.677335005486022 6.446062318695974L2.0710678118657597 6.446062318695974L2.0710678118657597 7.696073305034822L9.677335005486022 7.696073305034822L6.186696831034699 11.18671147948615L7.071082460317536 12.071067811865378L12.071067811865703 7.071082460317203L7.071082460317536 2.0710678118654187Z"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

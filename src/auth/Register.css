@@ -1,0 +1,170 @@
+.rgr-form-img{
+    width: 17vw;
+}
+
+.rgr-form-left{
+    background-color: black;
+    padding: 20px 40px;
+    border: 0.1px solid rgba(85, 85, 85, 0.774);
+}
+
+.rgr-form-right-main{
+
+    color: white;
+}
+
+.rgr-form-right-loading-btn{
+    height: 13px;
+}
+
+.rgr-form-right-head{
+font-family: ms2;
+    font-size: 24px;
+     -webkit-text-stroke: 0.5px white;
+    -webkit-text-fill-color: black;
+    letter-spacing: 2px;
+    padding: 20px 40px;
+    border: 0.1px solid rgba(85, 85, 85, 0.774);
+    margin: 20px 10px;
+    background-color: black;
+    cursor: pointer;
+}
+
+.rgr-form-right-content-flex{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    background-color: black;
+
+}
+
+.rgr-form-right-content{
+    border: 0.1px solid rgba(85, 85, 85, 0.774);
+    margin: 10px;
+    padding: 10px;
+    background-color: black;
+}
+
+.rgr-form-right-input{
+    background-color: black;
+    color: white;
+    font-family: ms1;
+    border: 0.1px solid rgba(85, 85, 85, 0.774);
+    padding: 10px;
+
+
+}
+
+.rgr-form-right-button{
+    background-color: var(--green);
+    color: black;
+    font-family: ms1;
+    border: 0.1px solid rgba(85, 85, 85, 0.774);
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.rgr-form-right-button-login-holder{
+ width: 100%;
+}
+
+
+.rgr-form-right-button-login{
+     background-color: var(--green);
+    color: black;
+    font-family: ms1;
+    border: 0.1px solid rgba(85, 85, 85, 0.774);
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.rgr-form-right-instructions{
+    margin: 10px;
+}
+
+.rgr-form-right-instructions-head{
+    font-family: ms1;
+    font-size: 12px;
+}
+
+.rgr-form-right-instructions-item:hover{
+    text-decoration: underline wavy var(--green);
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 450px){
+.rgr-form-main{
+display: flex;
+flex-direction: column;
+width: 95vw;
+}
+
+.rgr-form-img{
+    width: 50vw;
+}
+
+.rgr-form-right-content-flex{
+width: calc(100vw - 40px);
+justify-content: center;
+padding: 10px;
+background-color: black;
+}
+
+.rgr-form-right-head{
+margin:  20px 0px;
+padding: 0px;
+}
+
+.rgr-form-right-head{
+font-family: ms2;
+    font-size: 18px;
+     -webkit-text-stroke: 0.5px white;
+    -webkit-text-fill-color: black;
+    letter-spacing: 2px;
+    padding: 10px;
+    border: 0.1px solid rgba(85, 85, 85, 0.774);
+    margin: 20px 10px;
+    background-color: black;
+    cursor: pointer;
+    width: calc(100vw - 40px);
+}
+
+.rgr-form-right-input-holder{
+    width: calc(60vw - 20px);
+}
+
+.rgr-form-right-input{
+width: calc(60vw - 20px);
+}
+
+.rgr-form-right-button-holder{
+width: calc(40vw - 20px);
+}
+
+.rgr-form-right-button{
+    width: calc(40vw - 20px);
+    
+}
+
+.rgr-form-right-button-login-holder{
+width: 100%;
+}
+
+.rgr-form-right-button-login{
+    width: 100%;
+}
+
+.rgr-form-right-content{
+margin: 20px 10px;
+padding: 0px;
+}
+
+.rgr-form-right-instructions-head{
+    font-family: ms1;
+    font-size: 10px;
+    letter-spacing: 2;
+    text-align: center;
+}
+}

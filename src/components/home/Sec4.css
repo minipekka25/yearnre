@@ -1,0 +1,28 @@
+.Sec4-Title{
+        font-family: ps2;
+    font-size: 32px;
+    margin: 20px;
+}
+
+.Sec4-flex{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid var(--black);
+    margin: 20px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.Sec4-flex-inner{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Sec4-head{
+    font-family: ms2;
+}
+
+.Sec4-data{
+    font-family: ps1;
+}

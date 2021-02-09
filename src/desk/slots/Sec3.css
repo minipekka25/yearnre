@@ -1,0 +1,68 @@
+.lg-slots-sec3{
+    width: 100%;
+    overflow-x: auto;
+    position: relative;
+}
+
+.lg-slots-sec3-main-flex{
+    display: flex;
+}
+
+.lg-slots-sec3-item-left-button{
+    background-color: var(--green);
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    padding: 10px;
+    border: none;
+}
+
+.lg-slots-sec3-item-right-button{
+    background-color: var(--green);
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0px;
+    padding: 10px;
+    border: none;
+}
+
+
+.lg-slots-sec3-flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 8px;
+}
+
+.lg-slots-sec3-item{
+    background-color: var(--black);
+    padding: 10px 20px;
+    font-family: ps1;
+    color: white;
+    min-width: max-content;
+}
+
+.lg-slots-sec3-item-disabled{
+ background-color: rgb(70, 70, 70);
+    padding: 10px 20px;
+    font-family: ps1;
+    color: white;
+    min-width: max-content;
+}
+
+.lg-slots-sec3::-webkit-scrollbar {
+    background: var(--green);
+    height: 5px;
+}
+
+.lg-slots-sec3::-webkit-scrollbar-thumb {
+background: var(--black);
+}
+
+.lg-slots-sec3-flex a{
+    text-decoration: none;
+}

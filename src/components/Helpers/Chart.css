@@ -1,0 +1,16 @@
+.chartwhite{
+    height: 15px;
+    border: 1.5px solid var(--black);
+    width: 150px;
+    position: relative;
+    margin-bottom: 1px;
+}
+
+.chartgreen{
+    height: 15px;
+    position: absolute;
+    background-color: var(--green);
+   border-right: 1.5px solid var(--black);
+    top: 0;
+    left: 0;
+}

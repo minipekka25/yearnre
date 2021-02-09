@@ -1,0 +1,101 @@
+.PrtSec4-Title{
+     font-family: ps2;
+    font-size: 32px;
+    margin: 20px;
+}
+
+.PrtSec4-Table{
+   margin: 20px;
+   overflow-x: auto;
+}
+
+
+.PrtSec4-Table-Head{
+    font-family: ps2;
+}
+
+.PrtSec4-Table-Data1{
+    min-width: 70px;
+    font-family: ps2;
+}
+
+.PrtSec4-Table-Data2{
+    min-width: 150px;
+    font-family: ps2;
+    font-size: 14px;
+}
+
+.PrtSec4-Table-Data3{
+    min-width: 90px;
+    font-family: ps2;
+    font-size: 14px;
+}
+
+.PrtSec4-Table-Data4{
+    min-width: 50px;
+    font-family: ps2;
+    font-size: 14px;
+}
+
+.PrtSec4-Table-Data5{
+    min-width: 50px;
+    font-family: ps2;
+    font-size: 14px;
+}
+
+.PrtSec4-Table-Data6{
+    min-width: 70px;
+    font-family: ps2;
+    font-size: 14px;
+}
+
+.PrtSec4-Table-Data7{
+    min-width: 50px;
+    font-family: ps2;
+    font-size: 14px;
+}
+
+.PrtSec4-Table-Data8{
+    min-width: 80px;
+    font-family: ms2;
+    font-size: 12px;
+}
+
+
+.linkerb-slt-sec4{
+    vertical-align: middle;
+}
+
+.PrtSec4-Table-Data1-flex{
+    display: flex;
+    gap: 5px;
+}
+
+.PrtSec4-Table-Data1-inner{
+    background-color: var(--green);
+    padding: 2px;
+    font-size: 12px;
+}
+
+.PrtSec4-Table-head1{
+    min-width: 120px;
+}
+
+.PrtSec4-Table-head2{
+    min-width: 230px;
+}
+
+
+table
+{
+    border-top: 3px solid var(--black);
+    border-bottom: 3px solid var(--black);
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+table td
+{
+    padding: 8px 8px;
+    border-bottom: 1px solid var(--black);
+    
+}

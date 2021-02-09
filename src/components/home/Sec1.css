@@ -1,0 +1,36 @@
+.emoji-icn{
+    height: 95px;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+.emoji-bg{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    border-radius: 60px;
+    position: relative;
+}
+
+.sec1-flex{
+    display: flex;
+    gap: 35px;
+    margin: 25px 20px;
+}
+
+.sec1-head{
+    font-family: ps2;
+    font-size: 18px;
+}
+
+.sec1-data{
+    font-family: ms2;
+    font-size: 18px;
+}
+
+.sec1-content-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

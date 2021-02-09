@@ -1,0 +1,55 @@
+.StsSec2-Select1{
+    font-family: ps2;
+    background-color: white;
+    width: 120px;
+    padding: 10px;
+    border: 3px solid var(--green);
+}
+
+.StsSec2-container{
+    position: relative;
+    margin: 20px;
+    border: 3px solid var(--black);
+    background-color: var(--green);
+    
+}
+
+.StsSec2-head{
+    margin: 0px 10px;
+    font-family: ms2;
+    font-size: 14px;
+}
+
+.StsSec2-input{
+    font-family: ps2;
+    background-color: white;
+    width: 220px;
+    padding: 10px;
+    border: 3px solid var(--green);
+    margin-bottom: 10px;
+}
+
+::placeholder { 
+  color: var(--black);
+}
+
+.StsSec2-sideart{
+    background-color: black;
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    height: 70%;
+}
+
+.StsSec2-select-flex{
+    display: flex;
+    margin: 10px 0px;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.StsSec2-input-flex{
+    display: flex;
+    justify-content: center;
+}

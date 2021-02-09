@@ -1,0 +1,23 @@
+.PrtSec1-title{
+    font-family: ps2;
+    font-size: 32px;
+    margin: 20px;
+}
+
+.PrtSec1-flex{
+    display: flex;
+    margin: 10px 20px 10px 20px;
+    justify-content: space-between;
+    border: 3px solid black;
+    padding: 5px;
+}
+
+.PrtSec1-head{
+    font-family: ps1;
+    margin-bottom: 10px;
+}
+
+.PrtSec1-data{
+    font-family: ms2;
+    margin-top: 10px;
+}

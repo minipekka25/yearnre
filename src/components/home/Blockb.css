@@ -1,0 +1,80 @@
+.bloakb-container{
+    width: 180px;
+    background-color: var(--black);
+    color: white;
+}
+
+.blockb-flex{
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+    cursor: pointer;
+}
+
+.blockb-left{
+    position: relative;
+    width: 40px;
+}
+
+.ethw-icon-l1{
+    position: absolute;
+    height: 15px;
+    bottom: 35px;
+    left: 12px;
+}
+
+.ethw-icon-l2{
+    position: absolute;
+    height: 18px;
+    bottom: 5px;
+    left: 5px;
+}
+
+.ethw-icon-l3{
+    position: absolute;
+    bottom: 12px;
+    left: 25px;
+    height: 25px;
+}
+
+.blockb-right{
+position: relative;
+    width: 40px;
+}
+
+.ethw-icon-r1{
+    position: absolute;
+    height: 15px;
+    bottom: 35px;
+    right:  26px;
+}
+
+.ethw-icon-r2{
+    position: absolute;
+    height: 20px;
+    bottom: 8px;
+}
+
+.ethw-icon-r3{
+    position: absolute;
+    bottom: 20px;
+    right: 3px;
+    height: 25px;
+}
+
+.blockb-head{
+    font-family: ms2;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.blockb-data{
+    font-family: ps2;
+}
+
+.blockb-flex-inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      padding: 15px 0px;
+}

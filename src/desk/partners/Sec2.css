@@ -1,0 +1,68 @@
+   .lg-partners-sec1-title{
+   display: flex;
+    font-family: ps2;
+    font-size: 28px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+   }
+   
+.lg-partners-sec1-flex{
+    display: flex;
+    border: 3px solid var(--black);
+    padding: 20px 10px;
+    justify-content: space-evenly;
+}
+.lg-partners-sec1-button{
+        padding: 5px;
+    background-color: var(--green);
+    border: 2px solid var(--black);
+
+    font-family: ms2;
+display: flex;
+align-items: center;
+justify-content: center;
+    height: 100%;
+    cursor: pointer;
+
+}
+
+.lg-partners-sec1-select{
+    background-color: white;
+    border: 2px solid var(--black);
+    padding: 8px;
+    width: 100px;
+    font-family: ps1;
+}
+
+.lg-partners-sec1-Head{
+    font-family: ms2;
+    font-size: 12px;
+    margin-bottom: 5px;
+    letter-spacing: 0.5px;
+}
+
+.lg-partners-sec1-input{
+    padding: 5px;
+    background-color: white;
+    border: 2px solid var(--black);
+    font-family: ps1;
+    width: 175px;
+    height: 18px;
+}
+
+.lg-partners-sec1-input-1{
+        padding: 5px;
+    background-color: white;
+    border: 2px solid var(--black);
+    font-family: ps1;
+    width: 100px;
+    height: 18px;
+}
+
+.lg-partners-sec2-flex{
+    display: flex;
+    margin: 10px 0px;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px;
+}

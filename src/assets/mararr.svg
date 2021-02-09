@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="44.30379746835456" width="50.00000000000001">
+  <defs>
+    <ellipse id="ellipse-1" opacity="1" rx="22.151898734177212" ry="22.15189873417723" cx="27.848101265822766" cy="22.15189873417723"/>
+    <mask id="mask-2" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0">
+      <rect opacity="1" x="0" y="0" width="50.00000000000001" height="44.30379746835456" fill="black"/>
+      <use xlink:href="#ellipse-1" fill="white"/>
+    </mask>
+  </defs>
+  <g opacity="1">
+    <g opacity="1">
+      <use xlink:href="#ellipse-1" fill-opacity="0" stroke="rgb(9,9,9)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-2)"/>
+    </g>
+    <g opacity="1">
+      <rect fill="rgb(9,9,9)" fill-opacity="1" opacity="1" x="0" y="20.25316455696202" width="33.544303797468345" height="2.5316455696202347"/>
+    </g>
+    <g opacity="1">
+      <path fill="rgb(9,9,9)" fill-opacity="1" opacity="1" fill-rule="evenodd" d="M33.5443037974685 13.92405063291153L41.13924050632926 21.518987341772327L33.5443037974685 29.113924050633123L33.5443037974685 13.92405063291153Z"/>
+    </g>
+  </g>
+</svg>

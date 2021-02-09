@@ -1,0 +1,119 @@
+.lg-slots-sec4-title{
+       display: flex;
+    font-family: ps2;
+    font-size: 28px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    
+}
+
+.lg-slots-sec4-table{
+    overflow-x: auto;
+      
+      
+}
+
+.lg-slots-sec4-table::-webkit-scrollbar {
+    background: var(--green);
+    height: 5px;
+}
+
+.lg-slots-sec4-table::-webkit-scrollbar-thumb {
+background: var(--black);
+}
+
+.lg-slots-sec4-table-main{
+    width: max-content;
+    min-width: 100%;
+    margin-bottom: 8px;
+    border: 3px solid var(--black) ;
+  
+}
+
+.lg-slots-sec4-table-thead{
+    text-align: center;
+    border-bottom: 3px solid var(--black);
+  
+}
+
+.lg-slots-sec4-table-td{
+    font-family: ps1;
+    font-size: 14px;
+}
+
+
+.lg-slots-sec4-table-td-eth{
+    font-family: ms2;
+    font-size: 14px;
+}
+
+.lg-slots-sec4-table-th{
+  padding: 10px;
+  font-family: ps2;
+}
+
+.lg-slots-sec4-table-tbody{
+    text-align: center;
+}
+
+.lg-slots-sec4-title-main{
+    margin-right: 10px;
+}
+
+.lg-slots-sec4-table-td-type{
+    display:flex;
+      font-family: ps2;
+    font-size: 14px;
+    margin-bottom: -1px;
+  justify-content: center;
+    gap: 5px;
+    letter-spacing: 1px;
+}
+
+.lg-slots-sec4-table-td-type-item{
+    background-color: var(--green);
+    color: var(--black);
+    padding: 0px 3px;
+}
+
+.lg-slots-sec4-img{
+    vertical-align: middle;
+    margin-left: 3px;
+}
+
+.lg-slots-sec4-table-top{
+    margin-top: 20px;
+}
+
+.error-anime-flex{
+    display: flex;
+    flex-direction: column;
+        border: 3px solid var(--black) ;
+        align-items: center;
+}
+
+.error-anime-img{
+    height: 175px;
+}
+
+.error-anime-text{
+    font-family: ms1;
+    background-color: var(--black);
+    font-size: 14px;
+    padding: 10px 20px;
+    color: white;
+    margin: 10px;
+}
+
+.load-more{
+    width: 100%;
+    background-color: var(--black);
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+    margin: 5px 0px;
+    font-family: ms1;
+    font-size: 12px;
+    cursor: pointer;
+}

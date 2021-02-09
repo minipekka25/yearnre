@@ -1,0 +1,32 @@
+.error-page-anime-flex{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    background-color: black;
+}
+
+.error-page-anime-head{
+    font-family: ms2;
+    font-size: 15vw;
+    color: white;
+}
+
+.error-page-anime-text{
+    background-color: var(--black);
+    color: white;
+    font-family: ms1;
+    padding: 10px 30px;
+}
+
+.error-page-anime-bg-img{
+    position: absolute;
+    top: 8vh;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+}

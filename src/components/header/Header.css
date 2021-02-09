@@ -1,0 +1,24 @@
+.header{
+height: 7vh;
+}
+
+.logo-img{
+    margin-top: 10px;
+    height: 90%;
+}
+
+.logo-flex{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background-color: var(--black);
+}
+
+.logo-placeholder{
+    display: flex;
+    width: 75vw;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: white;
+}

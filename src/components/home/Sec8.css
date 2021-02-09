@@ -1,0 +1,43 @@
+.Sec8-Title{
+          font-family: ps2;
+    font-size: 32px;
+    margin: 20px;
+}
+
+.Sec8-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    border: 3px solid var(--black);
+    padding: 10px;
+}
+
+.Sec8-item{
+    padding: 10px;
+}
+
+.Sec8-head{
+    font-family: ps1;
+    font-size: 14px;
+}
+
+.Sec8-data{
+    font-family: ms2;
+    font-size: 12px;
+}
+
+.linker-icn{
+    vertical-align: middle;
+}
+
+.Sec8-flex{
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.Sec8-flex-inner{
+    display: flex;
+    flex-direction: column;
+}
